@@ -353,6 +353,7 @@
 		2E7DB4FA140DFBDF009FE107 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "One Guy Group, Inc.";
 			};
 			buildConfigurationList = 2E7DB4FD140DFBDF009FE107 /* Build configuration list for PBXProject "DSPFilters" */;
@@ -429,7 +430,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2EF3B477140F5059002CE947 /* SharedDebug.xcconfig */;
 			buildSettings = {
+				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = ../../include;
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
@@ -437,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2EF3B47A140F5059002CE947 /* SharedRelease.xcconfig */;
 			buildSettings = {
+				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = ../../include;
 			};
 			name = Release;
@@ -445,7 +449,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2EF3B479140F5059002CE947 /* SharedMacOS.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				EXECUTABLE_PREFIX = lib;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -454,7 +460,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2EF3B479140F5059002CE947 /* SharedMacOS.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				EXECUTABLE_PREFIX = lib;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -463,6 +471,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2EF3B478140F5059002CE947 /* SharediOS.xcconfig */;
 			buildSettings = {
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 			};
@@ -472,6 +481,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2EF3B478140F5059002CE947 /* SharediOS.xcconfig */;
 			buildSettings = {
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 			};

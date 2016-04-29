@@ -2,3 +2,4 @@ build
 .waf*
 .lock*
 .*.sw*
+.DS_store
